@@ -1,3 +1,3 @@
-module github.com/GinjaNinja32/go-i8080
+module crg.eti.br/go/i8080
 
-go 1.12
+go 1.20

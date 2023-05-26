@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/GinjaNinja32/go-i8080"
+	"crg.eti.br/go/i8080"
 )
 
 func main() {
