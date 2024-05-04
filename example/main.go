@@ -1,7 +1,6 @@
 package main
 
 import (
-	"io/ioutil"
 	"os"
 	"os/exec"
 	"strings"
@@ -22,7 +21,7 @@ func main() {
 		_ = stty.Wait()
 	}()
 
-	cpm, err := ioutil.ReadFile("CPM22.bin")
+	cpm, err := os.ReadFile("CPM22.bin")
 	if err != nil {
 		panic(err)
 	}
